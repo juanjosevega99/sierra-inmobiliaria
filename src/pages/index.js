@@ -1,14 +1,12 @@
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
-import { Houses } from "../components/Houses";
-import { Header } from "../components/Header";
+import { Main } from "../components/Main";
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <Houses />
+      <Main />
     </>
   );
 }
