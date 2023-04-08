@@ -14,12 +14,14 @@ export function Header() {
     // Do something when "Arrendar" link is clicked
   }
   const handleNumberClick = () => {
-    " ";
+    const phoneNumber = '3214223170';
+    const message = 'Hello, I have a question about your services.';
+  
+    const url = `https://wa.me/57${phoneNumber}?text=${encodeURIComponent(message)}`;
+  
+    window.open(url);
   };
-  {
-    // Do something when phone number is clicked
-  }
-
+  
   return (
     <header className={styles.header}>
       <Link href="/">
@@ -28,7 +30,7 @@ export function Header() {
           alt="Logo"
           className="logo"
           width={100}
-          height={88}
+          height={76}
         />
       </Link>
 

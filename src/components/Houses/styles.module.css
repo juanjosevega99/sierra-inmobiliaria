@@ -1,0 +1,11 @@
+.containerTitle {
+  margin: 15px 140px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  padding: 144px 150px;
+}
+
+.title {
+  font-size: 20px;
+  text-align: center;
+}

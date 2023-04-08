@@ -2,42 +2,36 @@
   "Houses": [
     {
       "id": "1",
-      "image": "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/9/4151628_610_17.jpg",
+      "preview": "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/9/4151628_610_17.jpg",
+      "images": [
+        "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/9/4151628_610_17.jpg",
+        "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/9/4151628_610_17.jpg",
+        "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/9/4151628_610_17.jpg"
+      ],
       "location": "Garzón - Huila, centro",
       "price": "150.000.000",
       "type": "arrendar"
     },
     {
       "id": "2",
-      "image": "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/9/4151628_610_17.jpg",
+      "preview": "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/9/4151628_610_17.jpg",
+      "images": [
+        "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/9/4151628_610_17.jpg",
+        "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/9/4151628_610_17.jpg",
+        "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/9/4151628_610_17.jpg"
+      ],
       "location": "Neiva - Huila, centro",
       "price": "150.000.000",
       "type": "vender"
     },
     {
       "id": "3",
-      "image": "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/9/4151628_610_17.jpg",
-      "location": "La jagua - Huila, centro",
-      "price": "150.000.000",
-      "type": "vender"
-    },
-    {
-      "id": "1",
-      "image": "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/9/4151628_610_17.jpg",
-      "location": "Garzón - Huila, centro",
-      "price": "150.000.000",
-      "type": "arrendar"
-    },
-    {
-      "id": "2",
-      "image": "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/9/4151628_610_17.jpg",
-      "location": "Neiva - Huila, centro",
-      "price": "150.000.000",
-      "type": "vender"
-    },
-    {
-      "id": "3",
-      "image": "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/9/4151628_610_17.jpg",
+      "preview": "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/9/4151628_610_17.jpg",
+      "images": [
+        "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/9/4151628_610_17.jpg",
+        "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/9/4151628_610_17.jpg",
+        "https://s3.amazonaws.com/imagenesprof.fincaraiz.com.co/OVFR_COL/2023/3/9/4151628_610_17.jpg"
+      ],
       "location": "La jagua - Huila, centro",
       "price": "150.000.000",
       "type": "vender"
