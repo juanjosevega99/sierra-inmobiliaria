@@ -32,8 +32,8 @@ export function Main() {
   };
 
   const handleNumberClick = () => {
-    const phoneNumber = Number(process.env.PHONE_NUMBER);
-    const message = process.env.WHATSAPP_MESSAGE;
+    const phoneNumber = Number(process.env.NEXT_PUBLIC_PHONE_NUMBER);
+    const message = process.env.NEXT_PUBLIC_WHATSAPP_MESSAGE;
 
     const url = `https://wa.me/57${phoneNumber}?text=${encodeURIComponent(
       message
