@@ -12,6 +12,7 @@ export function Main() {
   const [showComponentSell, setShowComponentSell] = useState(false);
   const [showComponentRent, setShowComponentRent] = useState(false);
   const [logoClicked, setLogoClicked] = useState(false);
+  const phoneNumber = Number(process.env.NEXT_PUBLIC_PHONE_NUMBER);
 
   const handleComprarClick = () => {
     setShowComponentRent(false);
@@ -32,9 +33,7 @@ export function Main() {
   };
 
   const handleNumberClick = () => {
-    const phoneNumber = Number(process.env.NEXT_PUBLIC_PHONE_NUMBER);
     const message = process.env.NEXT_PUBLIC_WHATSAPP_MESSAGE;
-
     const url = `https://wa.me/57${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
@@ -75,7 +74,7 @@ export function Main() {
             </li>
             <li>
               <a href="#" onClick={handleNumberClick}>
-                3214223175
+                {phoneNumber}
               </a>
             </li>
           </ul>
