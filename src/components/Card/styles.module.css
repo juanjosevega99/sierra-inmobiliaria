@@ -1,7 +1,7 @@
 .houses {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 120px;
+  padding: 20px 120px;
 }
 
 .house {

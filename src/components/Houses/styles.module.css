@@ -1,11 +1,52 @@
-.containerTitle {
+/* .containerTitle {
   margin: 15px 140px;
   border: 1px solid gray;
   border-radius: 15px;
   padding: 144px 150px;
+  background-image: url('../../images/dream-house.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
+/* .containerTitle {
+  margin: 15px 140px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  padding: 144px 150px;
+  background-image: url('../../images/dream-house.png');
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 160px 0;
+}
+
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  color: #fff;
+} */
+
+.containerTitle {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 360px;
+  background-image: url('../../images/dream-house.png');
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
 }
 
 .title {
-  font-size: 20px;
+  font-size: 32px;
+  font-weight: bold;
   text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  margin-bottom: 50px;
 }
