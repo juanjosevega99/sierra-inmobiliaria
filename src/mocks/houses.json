@@ -35,6 +35,42 @@
       "location": "La jagua - Huila, centro",
       "price": "150.000.000",
       "type": "vender"
+    },
+    {
+      "id": "4",
+      "preview": "https://cdn.luxe.digital/media/20230123162705/most-expensive-houses-in-the-world-reviews-luxe-digital.jpg",
+      "images": [
+        "https://cdn.luxe.digital/media/20230123162705/most-expensive-houses-in-the-world-reviews-luxe-digital.jpg",
+        "https://cdn.luxe.digital/media/20230123162705/most-expensive-houses-in-the-world-reviews-luxe-digital.jpg",
+        "https://cdn.luxe.digital/media/20230123162705/most-expensive-houses-in-the-world-reviews-luxe-digital.jpg"
+      ],
+      "location": "La jagua - Huila, centro",
+      "price": "150.000.000",
+      "type": "vender"
+    },
+    {
+      "id": "5",
+      "preview": "https://cdn.luxe.digital/media/20230123162705/most-expensive-houses-in-the-world-reviews-luxe-digital.jpg",
+      "images": [
+        "https://cdn.luxe.digital/media/20230123162705/most-expensive-houses-in-the-world-reviews-luxe-digital.jpg",
+        "https://cdn.luxe.digital/media/20230123162705/most-expensive-houses-in-the-world-reviews-luxe-digital.jpg",
+        "https://cdn.luxe.digital/media/20230123162705/most-expensive-houses-in-the-world-reviews-luxe-digital.jpg"
+      ],
+      "location": "La jagua - Huila, centro",
+      "price": "150.000.000",
+      "type": "arrendar"
+    },
+    {
+      "id": "6",
+      "preview": "https://cdn.luxe.digital/media/20230123162705/most-expensive-houses-in-the-world-reviews-luxe-digital.jpg",
+      "images": [
+        "https://cdn.luxe.digital/media/20230123162705/most-expensive-houses-in-the-world-reviews-luxe-digital.jpg",
+        "https://cdn.luxe.digital/media/20230123162705/most-expensive-houses-in-the-world-reviews-luxe-digital.jpg",
+        "https://cdn.luxe.digital/media/20230123162705/most-expensive-houses-in-the-world-reviews-luxe-digital.jpg"
+      ],
+      "location": "La jagua - Huila, centro",
+      "price": "150.000.000",
+      "type": "arrendar"
     }
   ]
 }
