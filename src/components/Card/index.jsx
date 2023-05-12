@@ -1,10 +1,14 @@
 import styles from "./styles.module.css";
 
-export function Card({ houses }) {
+export function Card({ houses, handleSelectHouse }) {
   return (
     <div className={styles.houses}>
       {houses.map((house) => (
-        <div key={house.id} className={styles.house}>
+        <div
+          key={house.id}
+          className={styles.house}
+          onClick={() => handleSelectHouse(house)}
+        >
           <img
             src={house.preview}
             alt="House"
