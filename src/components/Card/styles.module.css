@@ -1,12 +1,13 @@
 .houses {
   display: flex;
   flex-wrap: wrap;
-  padding: 20px 120px;
+  padding: 20px;
+  justify-content: center;
 }
 
 .house {
-  width: 384px;
-  margin: 20px;
+  width: 374px;
+  margin: 14px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);

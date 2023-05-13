@@ -38,6 +38,29 @@
 .backButton {
   position: absolute;
   font-size: 1.2rem;
-  bottom: 120px;
-  left: 260px;
+  top: 90%;
+  padding: 4px;
+  /* right: 150px; */
+}
+
+@media only screen and (max-width: 428px) { /* iPhone 12 Pro Max */
+  .backButton {
+    /* font-size: 1.4rem; */
+    top: 45%;
+  }
+}
+
+@media only screen and (max-width: 360px) { /* iPhone 7 */
+  .backButton {
+    /* font-size: 1rem; */
+    margin: 10px;
+    top: 55%;
+  }
+}
+
+@media only screen and (min-width: 320px) { /* iPhone SE */
+  .backButton {
+    top: 55%;
+    font-size: 1rem;
+  }
 }
