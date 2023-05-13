@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import styles from "./styles.module.css";
 import { Houses } from "../Houses";
 import { HousesToRent } from "../HousesToRent";
@@ -45,12 +44,10 @@ export function Main() {
     <div>
       <header className={styles.header}>
         <Link href="/">
-          <Image
+          <img
             src="/logo.png"
             alt="Logo"
-            className="logo"
-            width={100}
-            height={76}
+            className={styles.logo}
             onClick={handleLogoClick}
           />
         </Link>
@@ -64,12 +61,17 @@ export function Main() {
             </li>
             <li>
               <a href="#" onClick={handleComprarClick}>
-                Comprar
+                Compra
               </a>
             </li>
             <li>
               <a href="#" onClick={handleArrendarClick}>
-                Arrendar
+                Arrienda
+              </a>
+            </li>
+            <li>
+              <a href="#" onClick={handleNumberClick}>
+                <img src="/whatsapp.png" alt="WhatsApp" className={styles.whatsappIcon} />
               </a>
             </li>
             <li>
