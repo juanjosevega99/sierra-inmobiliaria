@@ -65,6 +65,11 @@
   .navList li {
     margin-left: 1rem;
   }
+
+  .whatsappIcon {
+    margin-top: -0.3rem;
+    margin-right: 0rem;
+  }
 }
 
 @media only screen and (max-width: 375) {
